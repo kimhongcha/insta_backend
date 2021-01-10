@@ -1,0 +1,3 @@
+[submodule "toy/src/instagram_front"]
+	path = toy/src/instagram_front
+	url = https://github.com/kimhongcha/instagram_front
