@@ -14,11 +14,12 @@ public class LoginService {
 
 	@Autowired
 	private LoginDao loginDao;
+	//private J
 
-	public LoginVo selectUserFromId(String id){
-		return loginDao.selectUserFromId(id);
-
-	}
+//	public LoginVo selectUserFromId(String id){
+//		return loginDao.selectUserFromId(id);
+//
+//	}
 	public LoginVo selectUserFromIdPw(String id, String pw){
 		LoginVo param = new LoginVo();
 		param.setUserId(id);
